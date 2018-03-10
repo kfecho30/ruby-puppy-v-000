@@ -14,4 +14,10 @@ class Dog
       puts pup.name
     end
   end
+
+  def self.clear_all
+    @@all.each do |pup|
+      @all.remove(pup)
+    end
+  end
 end
