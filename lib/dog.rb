@@ -16,7 +16,7 @@ class Dog
   end
 
   def self.clear_all
-    @@all.collect do |pup|
+    @@all.collect! do |pup|
       @@all.delete(pup)
     end
   end
