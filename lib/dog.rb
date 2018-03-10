@@ -9,4 +9,5 @@ class Dog
     @@all.each do |pup|
       puts pup
     end
+  end
 end
